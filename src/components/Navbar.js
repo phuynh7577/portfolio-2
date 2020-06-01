@@ -12,7 +12,7 @@ class Navbar extends Component {
           <Link to="/projects" className="nav-link"><span className="nav-span"> </span> Projects,</Link>
           <Link to="/experiences" className="nav-link"><span className="nav-span"></span> Experiences,</Link>
           <Link to="/skills" className="nav-link"><span className="nav-span">&nbsp;</span> Skills,</Link>
-          <a href="https://docdro.id/MQ4Cnpq" target="_blank" rel="noopener noreferrer" className="nav-link">Resume &nbsp;<span className="nav-span">&nbsp;]</span></a>
+          <a href="https://docdro.id/vFGnMfa" target="_blank" rel="noopener noreferrer" className="nav-link">Resume &nbsp;<span className="nav-span">&nbsp;]</span></a>
       </div>
     )
   }
