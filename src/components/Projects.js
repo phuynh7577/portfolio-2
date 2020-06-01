@@ -36,7 +36,7 @@ class Projects extends Component {
                 <a href="https://asis-me.herokuapp.com/" target="_blank" rel="noopener noreferrer"><img src="./asisme.png" alt="my landing page" className="project-img"/></a>
             </div>
             <div className="project-p">
-                <p>A web application which allows the user to add and view dog recipes. <span className="project-h3">(Warning: loading may be slow due to Heroku free hosting)</span></p>
+                <p>A web application which allows the user to add and view dog recipes. Allows user to create, read, and update. <span className="project-h3">Link to my back-end: https://recipesfortotoapi.herokuapp.com/recipes/. (Warning: loading may be slow due to Heroku free hosting)</span></p>
                 <h3 className="project-h3">React |&nbsp; | Ruby on Rails </h3>
                 <a href="https://recipesfortoto.herokuapp.com/" target="_blank" rel="noopener noreferrer"><img src="./recipe.png" alt="my landing page" className="project-img"/></a>
             </div>
