@@ -19,12 +19,12 @@ body {
     top: 350px;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 90vw;
+    width: 800px;
 }
 
 .aside-left {
     text-align: center;
-    padding-left: 10vw;
+    /* padding-left: 10vw; */
 }
 
 .aside-right h1 {
@@ -37,7 +37,7 @@ body {
     font-size: 18px;
     width: 40vw;
     text-align: left;
-    padding-left: 20vw;
+    padding-left: 80px;
 }
 
 .aside-right p{
@@ -321,8 +321,13 @@ footer {
 }
 
 @media only screen and (max-width: 800px) { 
+    .bio {
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 150px;
+    }
     .aside-right {
-        padding-left: 5vw;
+        /* padding-left: 5vw; */
     }
     .react-tabs {
         width: 85%;
