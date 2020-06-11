@@ -1,334 +1,331 @@
 html {
-    margin: 0;
-    padding: 0;
-    background-color: #00263b;
-    color: rgb(205, 199, 199);
+margin: 0;
+padding: 0;
+background-color: #00263b;
+color: rgb(205, 199, 199);
 }
 
 body {
-    background-color: none;
+background-color: none;
 }
 
 .bio {
-    font-family: "cormorant", sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* CENTER VERTICALLY AND HORIZONTALLY */
-    position: absolute;
-    top: 250px;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 800px;
+font-family: "cormorant", sans-serif;
+display: flex;
+justify-content: center;
+align-items: center;
+/* CENTER VERTICALLY AND HORIZONTALLY */
+position: absolute;
+top: 250px;
+left: 50%;
+transform: translate(-50%, -50%);
+width: 800px;
 }
 
 .aside-left {
-    text-align: center;
-    /* padding-left: 10vw; */
+text-align: center;
+/* padding-left: 10vw; */
 }
 
 .aside-right h1 {
-    font-size: 35px;
-    margin: 0;
+font-size: 35px;
+margin: 0;
 }
 
 .aside-right {
-    font-weight: 300;
-    font-size: 18px;
-    width: 40vw;
-    text-align: left;
-    padding-left: 80px;
+font-weight: 300;
+font-size: 18px;
+width: 40vw;
+text-align: left;
+padding-left: 80px;
 }
 
 .aside-right p{
-    line-height: 23px;
-    margin: 0;
+line-height: 23px;
+margin: 0;
 }
 
 .word-link {
-    text-decoration: none !important;
-    font-weight: 700;
-    color: #ff5200;
+text-decoration: none !important;
+font-weight: 700;
+color: #ff5200;
 }
 
 .link {
-    line-height: 45px;
+line-height: 45px;
 }
 
 .bio-span {
-    color: #ff5200;
-    font-size: 25px;
+color: #ff5200;
+font-size: 25px;
 }
 
 /* Footer */
 footer {
-    font-weight: 300;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-    text-align: center;
-    opacity: .3;
+font-weight: 300;
+position: fixed;
+width: 100%;
+bottom: 0;
+text-align: center;
+opacity: .3;
 }
 
 /* Navbar */
 .navbar {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+display: flex;
+flex-direction: row;
+justify-content: center;
 }
 
 .navbar a {
-    color: whitesmoke;
-    text-decoration: none;
-    font-size: 20px;
-    font-family: "dosis", "cormorant" !important;
-    font-weight: 700!important;
+color: whitesmoke;
+text-decoration: none;
+font-size: 20px;
+font-family: "dosis", "cormorant" !important;
+font-weight: 700!important;
 }
 
 .navbar a:hover {
-    color: #ff5200;
+color: #ff5200;
 }
 
 .nav-span {
-    font-size: 30px;
-    color: #ff5200;
+font-size: 30px;
+color: #ff5200;
 }
 
 .nav-link {
-    margin-left: 50px;
+margin-left: 50px;
 }
 
 /* Projects */
 .projects {
-    width: 600px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
+width: 600px;
+margin: 0 auto;
+display: flex;
+flex-direction: column;
 }
 
 .projects h1{
-    text-align: center;
-    font-family: "cormorant", sans-serif;
+text-align: center;
+font-family: "cormorant", sans-serif;
 }
 
 
 /* Project-one */
 
 .slick-prev {
-    left: -35px!important;
+left: -35px!important;
 }
 
 .slick-prev:before, .slick-next:before {
-    font-size: 30px!important;
+font-size: 30px!important;
 }
 
 .slick-prev, .slick-next {
-    top: 58%!important;
+top: 58%!important;
 }
 
 .slick-dots li.slick-active button:before {
-    color: white!important;
+color: white!important;
 }
 
 .slick-dots li button:before {
-    color: #ff5200!important;
-    opacity: 1!important;
-    font-size: 10px!important;
+color: #ff5200!important;
+opacity: 1!important;
+font-size: 10px!important;
 }
 
 .project-img  {
-    margin: 0;
-    width: 600px;
-    height: 40vh;
+margin: 0;
+width: 600px;
+height: 40vh;
 }
 
 .project-p {
-    text-align: center;
-    font-family: "cormorant", sans-serif;
+text-align: center;
+font-family: "cormorant", sans-serif;
 }
 
 .project-p p {
-    font-size: 17px;
-    margin: 0;
+font-size: 17px;
+margin: 0;
 }
 
 .project-h3 {
-    color: #ff5200;
-    margin: 0;
+color: #ff5200;
+margin: 0;
 }
 
 /* Experiences */
 
 .react-tabs {
-    margin: 5vh auto;
-    width: 950px;
-    display: flex;
-    justify-content: center;
+margin: 5vh auto;
+width: 850px;
+display: flex;
+justify-content: center;
 }
 
 .react-tabs__tab-panel--selected{
-    /* margin-left: 5vw; */
-    margin-left: 75px;
+/* margin-left: 5vw; */
+margin-left: 75px;
 }
 
 .react-tabs__tab-panel--selected h3 {
-    margin: 0;
-    color: white;
+margin: 0;
+color: white;
 }
 
 .react-tabs__tab-panel--selected h4 {
-    margin: 10px 0;
-    color: #ff5200;
+margin: 10px 0;
+color: #ff5200;
 }
 
 .react-tabs__tab-panel--selected ul {
-    list-style: square;
+list-style: square;
 }
 
 .react-tabs__tab-list {
-    width: 150px!important;
-    border-bottom: none!important;
-    display: flex;
-    flex-direction: column;
+width: 150px!important;
+border-bottom: none!important;
+display: flex;
+flex-direction: column;
 }
 
 .react-tabs__tab--selected {
-    background: rgb#ff5200!important;
-    border-color: #ff5200;
-}
-
-.react-tabs__tab--selected {
-    width: 150px;
+background: #ff5200!important;
+border-color: #ff5200;
+width: 150px;
 }
 
 .education {
-    padding-left: 0;
+padding-left: 0;
 }
 
 .experiences h1 {
-    text-align: center;
-    margin-bottom: 0;
-    font-family: "cormorant", sans-serif;
+text-align: center;
+margin-bottom: 0;
+font-family: "cormorant", sans-serif;
 }
 
 /* Skills */
 .skills-img {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-content: center;
+align-items: center;
 
 
 }
 
 .skills-tag {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 60%;
-    margin: 0 auto;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+width: 60%;
+margin: 0 auto;
 }
 
 .tag {
-    box-shadow: 0 1px 4px 0 rgb(205, 199, 199);
-    padding: 6px 30px;
-    display: inline-block;
-    margin-right: 10px;
-    border: 1px solid rgb(205, 199, 199);
-    font-weight: 700;
-    margin-bottom: 15px;
-    font-size: 16px;
-    background: #ff5200;
-    color: rgb(46, 45, 46);
-    font-family: "cormorant", sans-serif;
+box-shadow: 0 1px 4px 0 rgb(205, 199, 199);
+padding: 6px 30px;
+display: inline-block;
+margin-right: 10px;
+border: 1px solid rgb(205, 199, 199);
+font-weight: 700;
+margin-bottom: 15px;
+font-size: 16px;
+background: #ff5200;
+color: rgb(46, 45, 46);
+font-family: "cormorant", sans-serif;
 }
 
 .skills {
-    text-align: center;
-    font-family: "cormorant", sans-serif;
+text-align: center;
+font-family: "cormorant", sans-serif;
 }
 
 
 @media only screen and (max-width: 415px) { 
-    .navbar {
-        flex-wrap: wrap;
-    }
+.navbar {
+    flex-wrap: wrap;
+}
 
-    .bio {
-        flex-direction: column;
-        margin-top: 35vh;
-        margin-bottom: 10vh;
-        width: 95%;
-    }
-    
-    .aside-right {
-        width: 95vw;
-        padding: 0;
-    }
-    .aside-left {
-        padding: 0;
-    }
+.bio {
+    flex-direction: column;
+    margin-top: 35vh;
+    margin-bottom: 10vh;
+    width: 95%;
+}
 
-    footer {
-        display: none;
-    }
-    /* projects */
+.aside-right {
+    width: 95vw;
+    padding: 0;
+}
+.aside-left {
+    padding: 0;
+}
 
-    .projects {
-        width: 95%;
-        margin-top: 50px;
-    }
+footer {
+    display: none;
+}
+/* projects */
 
-    .project-img  {
-        margin: 0;
-        width: 100%;
-        height: 35vh;
-    }
+.projects {
+    width: 95%;
+    margin-top: 50px;
+}
 
-    .slick-prev:before, .slick-next:before {
-        display: none;
-    }
+.project-img  {
+    margin: 0;
+    width: 100%;
+    height: 35vh;
+}
 
-    /* experiences */
-    .react-tabs {
-        width: 95%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-    
-    .react-tabs__tab-panel--selected{
-        /* margin-left: 5vw; */
-        margin-left: 0;
-    }
-    
-    .react-tabs__tab-panel--selected h4 {
-        margin: 10px 0;
-        color: rgb(223, 98, 15);
-    }
-    
-    .react-tabs__tab-list {
-        flex-direction: row;
-    }
+.slick-prev:before, .slick-next:before {
+    display: none;
+}
 
-    /* skills */
-    .skills-tag {
-        width: 90%;
-    }
+/* experiences */
+.react-tabs {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.react-tabs__tab-panel--selected{
+    /* margin-left: 5vw; */
+    margin-left: 0;
+}
+
+.react-tabs__tab-panel--selected h4 {
+    margin: 10px 0;
+    color: rgb(223, 98, 15);
+}
+
+.react-tabs__tab-list {
+    flex-direction: row;
+}
+
+/* skills */
+.skills-tag {
+    width: 90%;
+}
 }
 
 @media only screen and (max-width: 800px) { 
-    .bio {
-        flex-direction: column;
-        justify-content: center;
-        margin-top: 150px;
-    }
+.bio {
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 150px;
+}
 
-    .react-tabs {
-        width: 85%;
-    }    
+.react-tabs {
+    width: 85%;
+}    
 }
 
 
