@@ -19,6 +19,7 @@ class Projects extends Component {
     
     return (
       <div className="projects">
+        <h1>My Skills</h1>
         <Slider {...settings}>
             <div className="project-p">
                 <p>A inventory management system for liquor stores. Includes data visualization of inventory's rate of return and number of inventories per liquor type. User Authentication with Bcrypt and JWT on the back-end. This site can be tested using <span className="project-h3">test@test.com(email) test123(password). (Warning: loading may be slow due to Heroku free hosting)</span>.</p>

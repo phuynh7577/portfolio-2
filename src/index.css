@@ -1,7 +1,7 @@
 html {
     margin: 0;
     padding: 0;
-    background-color: rgb(46, 45, 46);
+    background-color: #00263b;
     color: rgb(205, 199, 199);
 }
 
@@ -16,7 +16,7 @@ body {
     align-items: center;
     /* CENTER VERTICALLY AND HORIZONTALLY */
     position: absolute;
-    top: 350px;
+    top: 250px;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 800px;
@@ -48,7 +48,7 @@ body {
 .word-link {
     text-decoration: none !important;
     font-weight: 700;
-    color: rgb(223, 98, 15);;
+    color: #ff5200;
 }
 
 .link {
@@ -56,7 +56,7 @@ body {
 }
 
 .bio-span {
-    color: rgb(223, 98, 15);
+    color: #ff5200;
     font-size: 25px;
 }
 
@@ -86,12 +86,12 @@ footer {
 }
 
 .navbar a:hover {
-    color: rgb(223, 98, 15);
+    color: #ff5200;
 }
 
 .nav-span {
     font-size: 30px;
-    color: rgb(223, 98, 15);
+    color: #ff5200;
 }
 
 .nav-link {
@@ -101,10 +101,14 @@ footer {
 /* Projects */
 .projects {
     width: 600px;
-    margin: 100px auto;
-
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
+}
+
+.projects h1{
+    text-align: center;
+    font-family: "cormorant", sans-serif;
 }
 
 
@@ -127,7 +131,7 @@ footer {
 }
 
 .slick-dots li button:before {
-    color: rgb(223, 98, 15)!important;
+    color: #ff5200!important;
     opacity: 1!important;
     font-size: 10px!important;
 }
@@ -149,7 +153,7 @@ footer {
 }
 
 .project-h3 {
-    color: rgb(223, 98, 15);
+    color: #ff5200;
     margin: 0;
 }
 
@@ -174,7 +178,7 @@ footer {
 
 .react-tabs__tab-panel--selected h4 {
     margin: 10px 0;
-    color: rgb(223, 98, 15);
+    color: #ff5200;
 }
 
 .react-tabs__tab-panel--selected ul {
@@ -189,8 +193,8 @@ footer {
 }
 
 .react-tabs__tab--selected {
-    background: rgb(223, 98, 15)!important;
-    border-color: rgb(223, 98, 15);
+    background: rgb#ff5200!important;
+    border-color: #ff5200;
 }
 
 .react-tabs__tab--selected {
@@ -236,20 +240,15 @@ footer {
     font-weight: 700;
     margin-bottom: 15px;
     font-size: 16px;
-    background: rgb(223, 98, 15);
+    background: #ff5200;
     color: rgb(46, 45, 46);
     font-family: "cormorant", sans-serif;
 }
 
 .skills {
     text-align: center;
+    font-family: "cormorant", sans-serif;
 }
-
-.skills h1 {
-    margin-top: 10vh;
-}
-
-
 
 
 @media only screen and (max-width: 415px) { 
@@ -326,9 +325,7 @@ footer {
         justify-content: center;
         margin-top: 150px;
     }
-    .aside-right {
-        /* padding-left: 5vw; */
-    }
+
     .react-tabs {
         width: 85%;
     }    

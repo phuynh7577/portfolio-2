@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class Skills extends Component {
   render() {
     return (
-      <div className="skills">
+      <div className="skills slideIn slideOut">
           <h1>My Skills</h1>
           <div className="skills-tag">
             <span className="tag">MongoDB</span>
