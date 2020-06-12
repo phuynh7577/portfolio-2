@@ -16,7 +16,7 @@ justify-content: center;
 align-items: center;
 /* CENTER VERTICALLY AND HORIZONTALLY */
 position: absolute;
-top: 250px;
+top: 225px;
 left: 50%;
 transform: translate(-50%, -50%);
 width: 800px;
@@ -67,7 +67,12 @@ position: fixed;
 width: 100%;
 bottom: 0;
 text-align: center;
-opacity: .3;
+font-family: "cormorant", sans-serif;
+}
+
+footer a {
+    color: #ff5200;
+    text-decoration: none;
 }
 
 /* Navbar */
@@ -145,6 +150,11 @@ height: 40vh;
 .project-p {
 text-align: center;
 font-family: "cormorant", sans-serif;
+}
+
+.project-p a {
+    color: #ff5200;
+    font-size: 17px;
 }
 
 .project-p p {

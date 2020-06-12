@@ -11,7 +11,7 @@ class Experiences extends Component {
     return (
       <div className="experiences">
         <div>
-            <h1>Work Experience</h1>
+            <h1>Experiences</h1>
             <Tabs>
                 <TabList>
                     <Tab>General Assembly</Tab>

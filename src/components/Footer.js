@@ -5,7 +5,8 @@ class Footer extends Component {
     return (
       <div className="footer">
         <footer>
-            “Today you are You, that is truer than true. There is no one alive who is You-er than You.” -Dr Seuss
+          <span>Contact: </span>
+          <a href="mailto: phuynh7577@gmail.com" target="_blank" rel="noopener noreferrer">phuynh7577@gmail.com</a>
         </footer>
       </div>
     )

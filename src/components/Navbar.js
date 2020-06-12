@@ -7,11 +7,11 @@ class Navbar extends Component {
   render() {
     return (
       <div className="navbar">
-          <Link to="/"><span className="nav-span">[&nbsp; </span> Profile,</Link>
-          <Link to="/projects" className="nav-link"><span className="nav-span"> </span> Projects,</Link>
-          <Link to="/experiences" className="nav-link"><span className="nav-span"></span> Experiences,</Link>
-          <Link to="/skills" className="nav-link"><span className="nav-span">&nbsp;</span> Skills,</Link>
-          <a href="https://docdro.id/T6JTeSn" target="_blank" rel="noopener noreferrer" className="nav-link">Resume &nbsp;<span className="nav-span">&nbsp;]</span></a>
+          <Link to="/"><span className="nav-span">[&nbsp; </span> Profile</Link>
+          <Link to="/projects" className="nav-link"><span className="nav-span"> </span> Projects</Link>
+          <Link to="/experiences" className="nav-link"><span className="nav-span"></span> Experiences</Link>
+          <Link to="/skills" className="nav-link"><span className="nav-span">&nbsp;</span> Skills</Link>
+          <a href="https://docdro.id/BcJ5RCy" target="_blank" rel="noopener noreferrer" className="nav-link">Resume &nbsp;<span className="nav-span">&nbsp;]</span></a>
       </div>
     )
   }
