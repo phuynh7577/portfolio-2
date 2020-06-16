@@ -5,6 +5,7 @@ import {Route} from 'react-router-dom'
 import { spring, AnimatedSwitch } from 'react-router-transition';
 
 import Bio from "./components/Bio"
+import About from "./components/About"
 import Footer from "./components/Footer"
 import Navbar from "./components/Navbar"
 import Projects from "./components/Projects"
@@ -39,6 +40,9 @@ const bounceTransition = {
     opacity: 0,
     scale: 1.2,
   },
+  // leave in a transparent, downscaled state
+  atLeave: {
+  },
   // and rest at an opaque, normally-scaled state
   atActive: {
     opacity: bounce(1),
@@ -48,9 +52,12 @@ const bounceTransition = {
     return (
       <div className="App">
           <Navbar/>
-            <AnimatedSwitch
+          <Bio/>
+          <About/>
+            {/* <AnimatedSwitch
               atEnter={bounceTransition.atEnter}
               atActive={bounceTransition.atActive}
+              atLeave={bounceTransition.atLeave}
               mapStyles={mapStyles}
               className="route-wrapper"
               >
@@ -58,7 +65,7 @@ const bounceTransition = {
                 <Route exact path="/projects" render={() => <Projects/>}/>
                 <Route exact path="/experiences" render={() => <Experiences/>}/>
                 <Route exact path="/skills" render={() => <Skills/>}/>
-            </AnimatedSwitch>
+            </AnimatedSwitch> */}
           <Footer/>
       </div>
     )

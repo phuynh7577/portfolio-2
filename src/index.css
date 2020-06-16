@@ -3,49 +3,72 @@ margin: 0;
 padding: 0;
 background-color: #00263b;
 color: rgb(205, 199, 199);
+
+background-image: url(./serious.png);
 }
 
 body {
-background-color: none;
+    margin: 0;
 }
+
+/* .profilepic {
+    border-radius: 40px;
+} */
 
 .bio {
 font-family: "cormorant", sans-serif;
+width: 80%;
+margin-left: auto;
 display: flex;
-justify-content: center;
-align-items: center;
-/* CENTER VERTICALLY AND HORIZONTALLY */
-position: absolute;
-top: 225px;
-left: 50%;
-transform: translate(-50%, -50%);
-width: 800px;
+flex-direction: row;
 }
 
 .aside-left {
-text-align: center;
-/* padding-left: 10vw; */
+    margin-left: 10px;
+    background-color: rgb(144, 169, 206);
+    height: 650px;
+    width: 100vw;
+    float: right;
+    position: relative;
+    z-index: 9;
 }
 
-.aside-right h1 {
-font-size: 35px;
-margin: 0;
+.aside-left img {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin-left: 90px;
+    
 }
 
 .aside-right {
-font-weight: 300;
-font-size: 18px;
-width: 40vw;
-text-align: left;
-padding-left: 80px;
+    /* position: absolute; */
+    z-index: 10;
+    color: rgb(69, 66, 66);
+    margin-top: 100px;
+    text-align: left;
+    margin-left: 40px;
 }
 
-.aside-right p{
+.aside-right h1 {
+    font-size: 55px;
+    margin: 0;
+    font-family: "alfa slab one", sans-serif;
+}
+
+.aside-right h3 {
+    color: #ff5200;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "cormorant", sans-serif;
+}
+
+/* .aside-right p{
 line-height: 23px;
 margin: 0;
-}
+} */
 
-.word-link {
+/* .word-link {
 text-decoration: none !important;
 font-weight: 700;
 color: #ff5200;
@@ -58,7 +81,7 @@ line-height: 45px;
 .bio-span {
 color: #ff5200;
 font-size: 25px;
-}
+} */
 
 /* Footer */
 footer {
@@ -77,17 +100,24 @@ footer a {
 
 /* Navbar */
 .navbar {
+position: absolute;
 display: flex;
 flex-direction: row;
 justify-content: center;
+z-index: 21;
+position: fixed;
 }
 
 .navbar a {
-color: whitesmoke;
+color: rgb(69, 66, 66);
 text-decoration: none;
 font-size: 20px;
 font-family: "dosis", "cormorant" !important;
 font-weight: 700!important;
+}
+
+.resume {
+    line-height: 44.55px;
 }
 
 .navbar a:hover {
@@ -102,6 +132,48 @@ color: #ff5200;
 .nav-link {
 margin-left: 50px;
 }
+
+.about {
+    background: white;
+    color: rgb(69, 66, 66);
+    height: 675px;
+    width: 100vw;
+    margin-top: -65px;
+    font-family: "dosis", "cormorant" !important;
+}
+
+.about h2 {
+    padding-top: 90px;
+    padding-left: 150px;
+    color: #ff5200;
+}
+
+.about p {
+    padding-left: 150px;
+    width: 800px;
+}
+
+.journey {
+    padding-top: 0!important;
+}
+
+.about h2:hover {
+    text-decoration: underline rgb(144, 169, 206);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Projects */
 .projects {
