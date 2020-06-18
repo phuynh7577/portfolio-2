@@ -10,7 +10,6 @@ import Footer from "./components/Footer"
 import Navbar from "./components/Navbar"
 import Projects from "./components/Projects"
 import Experiences from "./components/Experiences"
-import Skills from "./components/Skills"
 
 
 class App extends Component {
@@ -54,6 +53,8 @@ const bounceTransition = {
           <Navbar/>
           <Bio/>
           <About/>
+          <Projects/>
+          <Experiences/>
             {/* <AnimatedSwitch
               atEnter={bounceTransition.atEnter}
               atActive={bounceTransition.atActive}

@@ -3,13 +3,15 @@ import React, { Component } from 'react';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 
+import Skills from "./Skills"
+
 class Experiences extends Component {
     
 
   render() {
     
     return (
-      <div className="experiences">
+      <div className="experiences" id="experience">
         <div>
             <h1>Experiences</h1>
             <Tabs>
@@ -54,7 +56,7 @@ class Experiences extends Component {
             </Tabs>
         </div>
         {/* NEW TAB LIST */}
-        <div>
+        <div className="education">
         <h1>Education</h1>
             <Tabs>
                 <TabList>
@@ -80,6 +82,8 @@ class Experiences extends Component {
                     </ul>
                 </TabPanel>
             </Tabs>
+
+            <Skills/>
         </div>
       </div>
     )
