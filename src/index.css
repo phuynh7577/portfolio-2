@@ -523,7 +523,7 @@ footer a:hover{
         position: initial;
         left: 0;
         bottom: 0;
-        margin-left: 5vw;
+        margin-left: 0;
     }
 
     .aside-left img {
@@ -565,6 +565,10 @@ footer a:hover{
     }
 
 
+
+    .MuiMenu-list a {
+        font-size: 20px;
+    }
 }
 
 
