@@ -336,6 +336,7 @@ footer a:hover{
 
 
 
+
 /* Experiences */
 
 .experiences {
@@ -449,29 +450,53 @@ footer a:hover{
 }
 
 
-@media only screen and (max-width: 750px) { 
-    .bio {
-        height: 450px;
+@media only screen and (max-width: 715px) { 
+    /* .bio {
+        margin-top: 0;
+        padding-top: 40px;
+        flex-direction: column;
+        justify-content: center;
+        background-color: rgb(144, 169, 206);
+        width: auto;
+        text-align: center;
     }
+    
+    .aside-left {
+        background-color: none;
+        padding-left: 0;
+        padding-right: 0;
+        width: auto;
+        position: relative;
+    } */
     
     .aside-left img {
         height: 300px;
     }
-
-    .aside-right h1 {
-        font-size: 35px;
+    
+    /* .aside-right {
+        margin: 0;
+        text-align: center;
     }
-
+    
     .react-tabs {
         width: 95%;
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
-
+    
+    .react-tabs__tab-panel--selected{
+        margin-left: 0;
+    }
+    
+    .react-tabs__tab-panel--selected h4 {
+        margin: 10px 0;
+        color: rgb(223, 98, 15);
+    }
+    
     .react-tabs__tab-list {
         flex-direction: row;
-    } 
+    } */
 }
 
 
@@ -482,18 +507,18 @@ footer a:hover{
         margin-top: 0;
         padding-top: 0;
         flex-direction: column;
-        height: 420px;
-        background-color: rgb(144, 169, 206)
+        justify-content: center;
+        text-align: center;
+
+        height: 450px;
     }
 
     .aside-left {
+        background-color: rgb(144, 169, 206);
         padding-left: 0;
         padding-right: 0;
-        width: 100vw;
+        width: auto;
         position: relative;
-        display: flex;
-        justify-content: center;
-        align-content: flex-end;
     }
     
     .aside-left img {
@@ -514,8 +539,7 @@ footer a:hover{
     }
     
     .aside-right {
-        width: 100vw;
-        align-items: center;
+        margin-top: 20px;
     }
 
     .aside-right h3 {

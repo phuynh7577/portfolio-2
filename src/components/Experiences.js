@@ -13,7 +13,7 @@ class Experiences extends Component {
     return (
       <div className="experiences" id="experience">
         <div>
-            <h1>Experiences</h1>
+            <h1>Experience</h1>
             <Tabs>
                 <TabList>
                     <Tab>General Assembly</Tab>

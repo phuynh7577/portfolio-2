@@ -1,12 +1,3 @@
-// import React, { Component } from 'react';
-// import "slick-carousel/slick/slick.css";
-// import "slick-carousel/slick/slick-theme.css";
-// import Slider from "react-slick";
-
-
-
-
-
 import React from 'react';
 import cx from 'clsx';
 import { makeStyles } from '@material-ui/core/styles';
@@ -102,6 +93,9 @@ export const Projects = React.memo(function BlogCard() {
             }
           />
           <Button className={buttonStyles}><a href="https://liquor-iq.herokuapp.com/" target="_blank" rel="noopener noreferrer">Go To Site</a></Button>
+          <br></br>
+          <br></br>
+          <Button className={buttonStyles}><a href="https://github.com/phuynh7577/inventory_client" target="_blank" rel="noopener noreferrer">Source</a></Button>
         </CardContent>
       </Card>
 
@@ -122,6 +116,9 @@ export const Projects = React.memo(function BlogCard() {
             }
           />
           <Button className={buttonStyles}><a href="https://asis-me.herokuapp.com/" target="_blank" rel="noopener noreferrer">Go To Site</a></Button>
+          <br></br>
+          <br></br>
+          <Button className={buttonStyles}><a href="https://github.com/phuynh7577/asis-me" target="_blank" rel="noopener noreferrer">Source</a></Button>
         </CardContent>
       </Card>
 
@@ -142,6 +139,9 @@ export const Projects = React.memo(function BlogCard() {
             }
           />
           <Button className={buttonStyles}><a href="https://www.hollywoodnailsalons.com/home" target="_blank" rel="noopener noreferrer">Go To Site</a></Button>
+          <br></br>
+          <br></br>
+          <Button className={buttonStyles}><a href="https://github.com/phuynh7577/hollywood_nail" target="_blank" rel="noopener noreferrer">Source</a></Button>
         </CardContent>
       </Card>
 
@@ -162,6 +162,9 @@ export const Projects = React.memo(function BlogCard() {
             }
           />
           <Button className={buttonStyles}><a href="https://recipesfortoto.herokuapp.com/" target="_blank" rel="noopener noreferrer">Go To Site</a></Button>
+          <br></br>
+          <br></br>
+          <Button className={buttonStyles}><a href="https://github.com/phuynh7577/recipe_client" target="_blank" rel="noopener noreferrer">Source</a></Button>
         </CardContent>
       </Card>
     </div>
