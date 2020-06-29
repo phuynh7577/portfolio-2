@@ -89,7 +89,7 @@ export const Projects = React.memo(function BlogCard() {
         <CardContent>
           <TextInfoContent
             classes={contentStyles}
-            overline={'React | | Riuby on Rails'}
+            overline={'React | | Ruby on Rails'}
             heading={'Inventory Management'}
             body={
               "Includes data visualization and user authentication. Test account: test@test.com test123. User can create/update/delete."
