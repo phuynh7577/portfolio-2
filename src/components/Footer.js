@@ -4,7 +4,7 @@ class Footer extends Component {
   render() {
     return (
       <div className="footer" id="contact">
-        <div class="center-footer">
+        <div className="center-footer">
             <footer>
               <h2>Let's Talk</h2>
               <a href="mailto: phuynh7577@gmail.com" target="_blank" rel="noopener noreferrer">phuynh7577@gmail.com</a>

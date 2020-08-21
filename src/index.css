@@ -303,6 +303,8 @@ footer a:hover{
     text-align: center!important;
     font-family: "alfa slab one", sans-serif;
     letter-spacing: 3px!important;
+    margin-top: 0;
+    padding-top: 20px;
 }
 
 .projects-card {
