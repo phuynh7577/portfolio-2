@@ -20,7 +20,7 @@ body {
     width: 100vw;
 }
 
-.aside-left {
+/* .aside-left {
     background-color: rgb(144, 169, 206);
     width: 55%;
     position: relative;
@@ -31,13 +31,11 @@ body {
     bottom: 0;
     margin-left: 5%;
 
-}
+} */
 
 .aside-right {
-    margin-right: 50px;
-    width: 45%;
+    width: 70%;
     position: relative;
-
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -137,7 +135,7 @@ footer a:hover{
 
 /* NAVBAR */
 
-.burger {
+/* .burger {
     width: 40px;
     border: 2px solid white;
     background-color: white;
@@ -236,7 +234,7 @@ footer a:hover{
     font-size: 50px;
     transition: color .5s ease;
     
-}
+} */
 
 
 
@@ -246,7 +244,7 @@ footer a:hover{
 
 
 
-
+/* about */
 
 .about {
     background: white;
@@ -256,12 +254,15 @@ footer a:hover{
     width: 100vw;
     margin-top: -65px;
     font-family: "dosis", "cormorant" !important;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 
 .aboutme {
     width: 70vw;
     margin: 0 auto;
+    text-align: center;
     /* max-width: 800px; */
 }
 
@@ -304,15 +305,12 @@ footer a:hover{
     font-family: "alfa slab one", sans-serif;
     letter-spacing: 3px!important;
     margin-top: 0;
-    padding-top: 20px;
+    padding-top: 80px;
 }
 
 .projects-card {
-    /* width: 100%!important;
-    height: auto!important; */
     background-color: #212121!important;
-    /* padding-bottom: 150px!important;
-    padding-top: 100px!important; */
+    padding-bottom: 80px;
 }
 
 .BlogTextInfoContent-button-8 {
@@ -336,7 +334,7 @@ footer a:hover{
 
 /* Experiences */
 
-.experiences {
+/* .experiences {
     background-color: #212121;
 }
 
@@ -393,7 +391,7 @@ footer a:hover{
 
 .education {
     padding-bottom: 100px;
-}
+} */
 
 
 
@@ -428,8 +426,7 @@ footer a:hover{
 .skills {
     text-align: center;
     font-family: "cormorant", sans-serif;
-    background-color: #212121;
-    padding-top: 20px;
+    padding-top: 60px;
     padding-bottom: 60px;
     width: 70vw;
     margin-left: auto;

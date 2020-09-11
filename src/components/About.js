@@ -5,11 +5,30 @@ class About extends Component {
     return (
         <div className="about" id="about">
           <div className="aboutme">
-            <h2>Before Coding</h2>
-            <p>They say it's not the destination but the journey that matters. In my case, I spent more than 6 years in the banking industry working in retail and commercial lending. Although I could've had a great career, I knew I wanted to build and create something, anything! Throughout my time after college I found myself getting into many hobbies, hobbies that allow me to experiment in many DIY projects. It felt great learning new skills that could come in handy around the house, but it wasn't enough. Eventually I came upon programming. I bought my first Udemy course and was astonished at what I've learned. I enjoyed every bit of it, and even found it difficult to stop coding. The thought of changing careers at 29 sound frightening at the time and I wasn't sure if it could be done. At this age I knew it was now or never, and as long as I pushed myself and put in the time, I will be a Software Engineer.</p>
-                
-            <h2 className="journey">My Journey</h2>    
-            <p className="journey-p">The Journey isn't over. There will always be something new to learn in this industry, and that is why I love it so much. I have gained experience working with both frontend and backend development. My current stack is the MERN stack, and I also have experience working with Ruby on Rails with POSTgres. I have built RESTFUL API's while also adhering to the MVC model. I enjoy coding as much as I enjoy a cup of coffee in the morning. My passion is to make applications that people love to use. I value honesty and hardwork, but also stand for quality. During my free time I enjoy building my skills as a developer. I enjoy working with a team to get the most out of the experience. If you would like to work with me, feel free to reach out via email: <a className="word-link" href="mailto: phuynh7577@gmail.com" target="_blank" rel="noopener noreferrer">Phuynh7577@gmail.com.</a> I can also be found @: <a className="word-link" href="https://www.linkedin.com/in/phi-huynh" target="_blank" rel="noopener noreferrer">LinkedIn</a>.</p>
+                <p class="top-para">
+                  I am a fullstack developer with more than six years of experience in the financial and banking industry. I'm proficient in web development. I have worked on a variety of projects where I made use of the following technologies:
+                </p>
+                <div className="skills" id="skills">
+                  <div className="skills-tag">
+                    <span className="tag">MongoDB</span>
+                    <span className="tag">Express</span>
+                    <span className="tag">React</span>
+                    <span className="tag">Node</span>
+                    <span className="tag">Ruby on Rails</span>
+                    <span className="tag">Postgres</span>
+                    <span className="tag">Javascript</span>
+                    <span className="tag">CSS</span>
+                    <span className="tag">HTML</span>
+                    <span className="tag">SASS</span>
+                    <span className="tag">Bootstrap</span>
+                    <span className="tag">Git &amp; Github</span>
+                    <span className="tag">Heroku</span>
+                  </div>
+                </div>
+
+                <p>
+                    I'm an excellent communicator and am very passionate about web development. I enjoy working with a team and tackling new problems as they arise. If you would like to work with me, feel free to reach out via email: <a className="word-link" href="mailto: phuynh7577@gmail.com" target="_blank" rel="noopener noreferrer">Phuynh7577@gmail.com.</a> My resume can be downloaded <a class="navbar-brand" href="https://docdro.id/quOXe3G" target="_blank">here</a> and I can also be found on <a className="word-link" href="https://www.linkedin.com/in/phi-huynh" target="_blank" rel="noopener noreferrer">LinkedIn</a>.
+                </p>
             </div>
         </div>
     )

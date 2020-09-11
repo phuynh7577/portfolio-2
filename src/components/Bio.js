@@ -12,12 +12,14 @@ class Bio extends Component {
                       <a href="https://www.linkedin.com/in/phi-huynh" target="_blank" rel="noopener noreferrer"><img src="./linkedin.png" alt="linkedin logo" width="35"/></a>
                       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                       <a href="https://github.com/phuynh7577" target="_blank" rel="noopener noreferrer"><img src="./github.png" alt="github logo" width="35"/></a>
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      <a class="navbar-brand" href="https://docdro.id/quOXe3G" target="_blank"><img className="resume" src="../resume.png" width="35px"></img></a>
                 </div>
           </div>
 
-            <div className="aside-left">
-                <img className="profilepic" src="../profile3.png" alt="my face" height="520"/>
-            </div>
+            {/* <div className="aside-left">
+                <img className="profilepic" src="../profile3.png" alt="my face" height="420"/>
+            </div> */}
             {/* &nbsp; */}
           </div>
       </div>

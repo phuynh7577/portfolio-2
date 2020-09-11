@@ -36,7 +36,7 @@ export default function SimpleMenu() {
 
   return (
     <div className="navbar">
-      <Button aria-controls="simple-menu" aria-haspopup="true" onClick={handleClick}>
+      {/* <Button aria-controls="simple-menu" aria-haspopup="true" onClick={handleClick}>
         <div className="burgerking">
           <div className="burger"></div>
           <div className="burger"></div>
@@ -60,7 +60,7 @@ export default function SimpleMenu() {
           <MenuItem onClick={handleClose}><a href="#skills">SKILLS</a></MenuItem>
           <MenuItem onClick={handleClose}><a href="https://docdro.id/BcJ5RCy" target="_blank" rel="noopener noreferrer" className="nav-link">RESUME</a></MenuItem>
         </div>
-      </Menu>
+      </Menu> */}
     </div>
   );
 }

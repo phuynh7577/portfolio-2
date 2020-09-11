@@ -78,7 +78,7 @@ export const Projects = React.memo(function BlogCard() {
   
   return (
     <div className="projects-card" id="projects">
-      <h1>Projects</h1>
+      <h1>My Work</h1>
       <Card className={cx(styles.root, shadowStyles.root)}>
         <CardMedia
           className={styles.media}

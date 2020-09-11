@@ -83,7 +83,7 @@ class Experiences extends Component {
                 </TabPanel>
             </Tabs>
 
-            <Skills/>
+            {/* <Skills/> */}
         </div>
       </div>
     )
