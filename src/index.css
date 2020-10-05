@@ -34,7 +34,7 @@ body {
 } */
 
 .aside-right {
-    width: 70%;
+    /* width: 70%; */
     position: relative;
     display: flex;
     flex-direction: column;
